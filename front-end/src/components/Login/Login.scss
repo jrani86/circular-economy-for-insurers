@@ -1,0 +1,202 @@
+@media all and (min-width: 320px) {
+
+  .ey-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    left: 30px;
+    //transform: translate(-50%,-50%);
+  }
+  .Login {
+    /* padding: 10% 0; */
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #ffffff;
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),url(../../assets/images/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+
+    .login-container {
+      .requestblockonecol {
+        text-align: center;
+      }
+
+      .requestblocktwocol {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 20px 20px;
+        @media all and (max-width: 576px) {
+          background-color: rgba(0, 0, 0, 0.4) !important;
+          @media all and (max-height: 900px) {
+            padding: 24vh 10%;
+          }
+          @media all and (max-height: 824px) {
+            padding: 23.4vh 15%;
+          }
+          @media all and (max-height: 812px) {
+            padding: 23vh 15%;
+          }
+          @media all and (max-height: 737px) {
+            padding: 20vh 15%;
+          }
+          @media all and (max-height: 668px) {
+            padding: 17vh 15%;
+          }
+          @media all and (max-height: 640px) {
+            padding: 15.7vh 15%;
+          }
+          @media all and (max-height: 569px) {
+            padding: 11.34vh 15%;
+          }
+        }
+      }
+
+      .app-name {
+        width: 200px;
+        height: 100%;
+      }
+
+      .image-cont {
+        margin-bottom: 50px;
+      }
+
+      .image-bottom-border {
+        width: 80%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.59);
+        margin: 0% 10%;
+        margin-bottom: 40px;
+      }
+
+      .errorvalidation {
+        font-size: 10px;
+        color: darkred;
+        position: absolute;
+        left: 15px;
+        top: 35px;
+      }
+    }
+
+    .signin_btn {
+      float: right;
+      margin-top: 5%;
+      background-color: #000000 !important;
+      color: #FFFFFF;
+      width: 100% !important;
+      border: none;
+      box-shadow: none;
+      border-radius: 0px;
+    }
+
+    .signin_btn.disabled,
+    .signin_btn:disabled {
+      border: none;
+      color: #ffe600 !important;
+    }
+
+    .signin_btn:hover {
+      color: #ffe600 !important;
+      border-color: transparent;
+      box-shadow: 0 5px 11px 0 transparent, 0 4px 15px 0 transparent;
+      outline: 0;
+    }
+
+    .signin_btn:active {
+      color: #ffe600 !important;
+      border-color: transparent;
+      box-shadow: 0 5px 11px 0 transparent, 0 4px 15px 0 transparent;
+      outline: 0;
+    }
+
+    .navbar-expand {
+      justify-content: center;
+    }
+
+    .navbar-brand {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .navbar-light .navbar-brand {
+      color: #ffffff;
+    }
+  }
+
+  .Login {
+
+    .form-group {
+      margin-bottom: 2rem;
+    }
+
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+
+    select.form-control,
+    textarea.form-control,
+    input.form-control {
+      font-size: 12px;
+    }
+
+    .Input-control {
+      color: #000000;
+      @media all and (max-width: 1024px) {
+        color: #efe7e7 !important;
+      }
+      font-weight: 600;
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .input-field {
+      background: transparent;
+      border: 1px solid #000000;
+      color: #000000;
+      border-radius: 0px;
+      font-size: 12px;
+    }
+
+    .form-control {
+      background: transparent;
+      border: 2px solid #FFFFFF !important;
+      @media all and (max-width: 1024px) {
+        border: 2px solid #efe7e7 !important;
+      }
+      color: #FFFFFF;
+      border-radius: 0px;
+      font-size: 12px;
+    }
+
+    .form-control:focus {
+      color: #000000;
+      background-color: transparent;
+      border-color: #000000 !important;
+      @media all and (max-width: 576px) {
+        border-color: #ffffff !important;
+      }
+      outline: 0;
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
+    }
+    .forgot-password {
+      width: inherit;
+      color: blue;
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: right;
+      text-decoration: underline;
+      cursor: pointer;
+
+    }
+  }
+}
+

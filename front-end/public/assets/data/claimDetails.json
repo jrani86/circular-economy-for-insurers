@@ -1,0 +1,177 @@
+[
+    {
+        "ClaimNumber": "1000054329",        
+        "PolicyNumber":"PA10005604",
+        "EffectiveDate": "01-Jan-2021",
+        "Product":"Personal Auto",        
+        "Insured": "John Smith",
+        "ServiceNumber": "203",
+        "Vehicle": "2019 Toyota Camry",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "407 N NORTON ,LOS ANGELES, CA 92802",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "90004-1519",
+            "county": "Harrison",
+            "addressLine1": "407 N NORTON"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"toyota_camry.jpg"
+    },
+    {
+        "ClaimNumber": "1000054789",        
+        "PolicyNumber":"PA10005635",
+        "EffectiveDate": "01-Mar-2020",
+        "ServiceNumber": "234",
+        "Product":"Personal Auto",        
+        "Insured": "Mary Joe",
+        "Vehicle": "2017 AUDI A6",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "797 West 2nd Street, San Bernardino, CA 92410",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "92410",
+            "county": "LOS ANGELES",
+            "addressLine1": "797 West 2nd Street"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"audi_a6.jpg"
+    },
+    {
+        "ClaimNumber": "1000053876",        
+        "PolicyNumber":"PA10009835",
+        "EffectiveDate": "01-JAN-2021",
+        "ServiceNumber": "298",
+        "Product":"Personal Auto",        
+        "Insured": "Mike Strapp",
+        "Vehicle": "2018 AUDI A4",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "29160 Heathercliff Rd, Malibu, California, 90265",
+            "country": "US",
+            "city": "Malibu",
+            "postalCode": "90265",
+            "county": "Malibu",
+            "addressLine1": "29160 Heathercliff Rd"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"audi_a4.jpg"
+    },
+    {
+        "ClaimNumber": "1000053675",        
+        "PolicyNumber":"PA10006846",
+        "EffectiveDate": "01-JAN-2021",
+        "ServiceNumber": "456",
+        "Product":"Personal Auto",        
+        "Insured": "Mark Hebble",
+        "Vehicle": "2018 BMW X5",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "797 West 2nd Street, San Bernardino, CA 92410",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "92410",
+            "county": "LOS ANGELES",
+            "addressLine1": "797 West 2nd Street"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"bmw_x6.jpg"
+    },
+    {
+        "ClaimNumber": "1000053564",        
+        "PolicyNumber":"PA10005948",
+        "EffectiveDate": "01-JAN-2021",
+        "ServiceNumber": "485",
+        "Product":"Personal Auto",        
+        "Insured": "Doug Baker",
+        "Vehicle": "2014 BMW X4",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "407 N NORTON ,LOS ANGELES, CA 92802",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "90004-1519",
+            "county": "Harrison",
+            "addressLine1": "407 N NORTON"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"bmw_x4.jpg"
+    },
+    {
+        "ClaimNumber": "1000058659",        
+        "PolicyNumber":"PA10005866",
+        "EffectiveDate": "01-JAN-2021",
+        "ServiceNumber": "363",
+        "Product":"Personal Auto",        
+        "Insured": "Sandra Humprey",
+        "Vehicle": "2018 BMW X5",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "1221 South Disneyland Drive, Anaheim, CA 92802",
+            "country": "US",
+            "city": "Anaheim",
+            "postalCode": "92802",
+            "county": "Harrison",
+            "addressLine1": "1221 South Disneyland Drive"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"bmw_x6.jpg"
+    },
+    {
+        "ClaimNumber": "1000094755",        
+        "PolicyNumber":"PA10007400",
+        "EffectiveDate": "01-JAN-2021",
+        "ServiceNumber": "585",
+        "Product":"Personal Auto",        
+        "Insured": "Frank Michel",
+        "Vehicle": "2014 BMW X4",
+        "PolicyState":"California",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "407 N NORTON ,LOS ANGELES, CA 92802",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "90004-1519",
+            "county": "Harrison",
+            "addressLine1": "407 N NORTON"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "DamamgedParts":{
+
+        },
+        "Image":"bmw_x4.jpg"
+    }
+]

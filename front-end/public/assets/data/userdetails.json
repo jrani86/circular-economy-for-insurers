@@ -1,0 +1,17 @@
+[
+{
+	"username": "bettybaker",
+	"password": "password",
+	"name": "Betty Baker"
+},
+{
+	"username": "esgadmin",
+	"password": "password",
+	"name": "ESG Admin"
+},
+{
+	"username": "demoadmin",
+	"password": "password",
+	"name": "Demo Admin"
+}
+]

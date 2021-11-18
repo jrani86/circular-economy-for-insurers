@@ -1,0 +1,65 @@
+[
+    {
+        "Status": "New",
+        "ClaimId": "1000054329",
+        "Insured": "John Smith",
+        "Loss_Date": "11-05-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$3,700",
+        "Vehicle_Location": "Santa Clara, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000054789",
+        "Insured": "Mary Joe",
+        "Loss_Date": "11-01-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$4,500",
+        "Vehicle_Location": "Santa Clara, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000053876",
+        "Insured": "Mike Strapp",
+        "Loss_Date": "10-25-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$8,900",
+        "Vehicle_Location": "Los Angeles, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000053675",
+        "Insured": "Mark Hebble",
+        "Loss_Date": "10-23-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$7,800",
+        "Vehicle_Location": "Los Angeles, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000053564",
+        "Insured": "Doug Baker",
+        "Loss_Date": "10-23-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$6,800",
+        "Vehicle_Location": "Santa Clara, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000058659",
+        "Insured": "Sandra Humprey",
+        "Loss_Date": "06-18-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$7,200",
+        "Vehicle_Location": "Santa Clara, CA"
+    },
+    {
+        "Status": "New",
+        "ClaimId": "1000094755",
+        "Insured": "Frank Michel",
+        "Loss_Date": "11-21-2021",
+        "Assigned_To": "Betty Baker",
+        "Claim_Amount": "$9,800",
+        "Vehicle_Location": "Santa Clara, CA"
+    }
+]

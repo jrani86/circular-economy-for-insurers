@@ -1,0 +1,122 @@
+/*****************************************FOR IPAD VIEW********************************************************/
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .ipad-100{
+      width:100% !important;
+      flex: none !important;
+      max-width: none !important;
+    }
+    .width-mob {
+      width: 10rem!important;
+    }
+  
+    .margin-ipad-leftMinus3 {
+      margin-left: -3rem!important;
+    }
+  
+    .margin-ipad-leftMinus2 {
+      margin-left: -2rem!important;
+    }
+
+    .device-left-18 {
+      margin-left: 18rem!important;
+    }
+  
+    .ipad-margin-0 {
+      margin-left: 0rem!important;
+    }
+  
+    .ipad-ml-10 {
+      margin-left: 10rem!important;
+    }
+
+    .ipad-ml-6 {
+      margin-left: 6rem!important;
+    }
+    .ipad-ml-14 {
+      margin-left: 14rem!important;
+    }
+  
+    .ml-10 {
+      margin-left: -0.5rem;
+    }
+    .ml-15 {
+      margin-left: -0.5rem;
+    }
+    .ml3 {
+      margin-left: 0rem!important;
+    }
+    .mobile-ml-10 {
+      margin-left: 2rem;
+    }
+    .mr3 {
+      margin-right: 7em!important;
+    }
+    .mr4 {
+      margin-right: 4.4em;
+    }
+    .button {
+      background-color: rgb(243, 237, 240);
+      /* Green */
+      border: .115vw solid #0817f3;
+      border-top: 1.2vw solid rgb(128, 0, 0);
+      color: rgb(128, 0, 0);
+      text-align: center;
+      text-decoration: none;
+      font-size: 4vw;
+      margin: 1vw 3vw;
+      cursor: pointer;
+      padding: 2vw 2vw;
+    }
+    .summary {
+      font-size: 2vw;
+      font-weight: normal;
+      text-align: center;
+      padding: 2em;
+    }
+    .custom {
+      font-size: 5vw;
+    }
+    .ml-12 {
+      margin-left: 12em;
+    }
+    .margin-date {
+      margin-top: 0em;
+    }
+    .pr-6 {
+      padding-right: 1em;
+    }
+    .pl-6 {
+      padding-left: 1em;
+    }
+    .pl-1pt5 {
+      padding-left: 1.5em !important;
+    }
+    .pl-03 {
+      padding-left: 3em !important;
+    }
+    .fs-1pt5 {
+      font-size: 1em;
+    }
+    .fs-1pt2 {
+      font-size: 0.8em;
+    }
+    .fs-1 {
+      font-size: 0.7em;
+    } 
+    .sidebarhamburgerbutton {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    .width-40 {
+      width: 25%!important;
+    }
+    .textsize-mobile {
+      font-size: large;
+    }
+    .device-left-6 {
+      margin-left: 6.5rem!important;
+    }
+}

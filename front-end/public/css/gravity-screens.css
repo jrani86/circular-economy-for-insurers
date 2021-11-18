@@ -1,0 +1,1332 @@
+.ml-50 {
+    margin-left: 50%;
+}
+
+.ml-25 {
+    margin-left: 25%;
+}
+
+.ml-20 {
+    margin-left: 20%;
+}
+
+.ml-15 {
+    margin-left: 15%;
+}
+
+.ml-10 {
+    margin-left: 10%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.mt-25 {
+    margin-top: 25%;
+}
+
+.ml3 {
+    margin-left: 3rem!important;
+}
+
+/* Prefill */
+
+.header {
+    font-size: 2em !important;
+    padding-bottom: 20px;
+}
+.bg-blue {
+    background-color: #003E67
+}
+
+.bg-coverageblue {
+    background-image: linear-gradient(to right, #f2f6f9, #cae1f1);
+}
+
+.text-coverageblue {
+    color: #e0f2fe;
+}
+
+.border-blue {
+    border-color: #003E67;
+    ;
+}
+
+.btn-width {
+    width: 70%;
+}
+
+.subheader {
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.mr4 {
+    margin-right: 3rem;
+}
+
+.selecthead {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.selectbottom {
+    font-size: 0.9em;
+}
+
+.form-select {
+    height: 2.5em;
+    width: 100%;
+    font-size: 1.2em;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+.table-font {
+    font-weight: 300 !important;
+    font-size: 0.9em !important;
+}
+
+.border-btm-2 {
+    border-bottom-width: .2em!important;
+    border-bottom-color: #ccc!important;
+}
+
+.text-grey {
+    color: #cccccc;
+}
+
+.tab {
+    width: 7.9em;
+    height: 7.4em;
+    font-size: 1.4rem;
+    border-radius: 0.2em;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border-style: solid;
+    outline: none;
+}
+
+.tab-driver {
+    width: 7.9em;
+    height: 7.4em;
+    font-size: 1.4rem;
+    border-radius: 0.2em;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    outline: none;
+}
+
+.border-grey {
+    border-top-color: #908f8f;
+}
+
+.border-grey:focus {
+    background-color: #908f8f;
+    color: white;
+}
+
+.border-red {
+    border-top-color: #f90000;
+}
+
+.border-red:focus {
+    background-color: #f90000;
+    color: white;
+}
+
+.border-softpink {
+    border-top-color: #976190;
+}
+
+.border-softpink:focus {
+    background-color: #976190;
+    color: white;
+}
+
+.border-puertorico {
+    border-top-color: #50C7A7;
+}
+
+.border-puertorico:focus {
+    background-color: #50C7A7;
+    color: white;
+}
+
+.border-conifer {
+    border-top-color: #63A1D6;
+}
+
+.border-conifer:focus {
+    background-color: #63A1D6;
+    color: white;
+}
+
+.border-lightblue {
+    border-top-color: #4DBBD9;
+}
+
+.border-lightblue:focus {
+    background-color: #4DBBD9;
+    color: white;
+}
+
+.border-green {
+    border-top-color: #14B14B;
+}
+
+.border-green:focus {
+    background-color: #14B14B;
+    color: white;
+}
+
+.border-orange {
+    border-top-color: #F5861F;
+}
+
+.border-orange:focus {
+    background-color: #F5861F;
+    color: white;
+}
+
+.tab-icon {
+    text-align: center;
+}
+
+.ptop {
+    padding-top: 1em !important;
+}
+
+.pl-55 {
+    padding-left: 55%;
+}
+
+.count-lg {
+    font-size: 2em;
+    line-height: .75em;
+    vertical-align: -.0667em;
+}
+
+.product-logo {
+    height: 2em;
+    width: 2em;
+}
+
+.mr3 {
+    margin-right: 3em!important;
+}
+
+/* .trebuchet-font{
+    font-family:Helvetica, sans-serif
+} */
+
+.selected {
+    border-style: solid;
+    background-color: whitesmoke;
+    border-width: thin;
+}
+
+/* Toggle starts */
+
+.dash-button {
+    width: 11em;
+    height: 2.9em;
+    background-color: white;
+    border-style: solid;
+    border-color: #628d34;
+    border-width: 0.1em;
+}
+
+.outline-none {
+    outline: none !important;
+}
+
+.cm-toggle {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* To create surface of toggle button */
+
+.cm-toggle:after {
+    content: '';
+    width: 60px;
+    height: 28px;
+    display: inline-block;
+    background: rgba(196, 195, 195, 0.55);
+    border-radius: 18px;
+    clear: both;
+}
+
+/* Contents before checkbox to create toggle handle */
+
+.cm-toggle:before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Shift the handle to left on check event */
+
+.cm-toggle:checked:before {
+    left: 32px;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Background color when toggle button will be active */
+
+.cm-toggle:checked:after {
+    background: #003E67;
+}
+
+.cm-toggle, .cm-toggle:before, .cm-toggle:after, .cm-toggle:checked:before, .cm-toggle:checked:after {
+    transition: ease .3s;
+    -webkit-transition: ease .3s;
+    -moz-transition: ease .3s;
+    -o-transition: ease .3s;
+}
+
+/* Toggle ends */
+
+/*  */
+
+.switch-field {
+    display: flex;
+    margin-bottom: 36px;
+    overflow: hidden;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease-in-out;
+    font-size: small;
+    font-weight: normal;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+    color: #80c0c0 ;
+}
+
+.switch-field input:checked+label {
+    background-color: #008080;
+    color: white;
+    box-shadow: none;
+    font-weight: normal;
+}
+.switch-field input:checked+label:hover{
+    background-color: #ffffff !important ;
+    color: #008080 !important;
+    border: 1px solid #008080 !important;
+}
+/* .switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+} */
+
+/*  */
+
+.custom {
+    font-size: 1.6vw;
+    font-weight: bolder;
+}
+
+.button {
+    background-color: rgb(243, 237, 240);
+    /* Green */
+    border: .115vw solid #0817f3;
+    border-top: 1.2vw solid rgb(128, 0, 0);
+    color: rgb(128, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 1vw 3vw;
+    cursor: pointer;
+    padding: 2vw 2vw;
+}
+
+.summary {
+    font-size: 1.3vw;
+    font-weight: normal;
+    text-align: center;
+    padding: 1em;
+}
+
+.bgc-lightblue {
+    background-color: #63a1d6;
+}
+
+.border-radius-none {
+    border-radius: 0em !important;
+}
+
+.bg-inherit {
+    background-color: inherit;
+}
+
+.rectangle {
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-family: 'EYInterstate Light' !important;
+}
+
+.rectangle:hover {
+    border: 2px solid rgb(112, 173, 223);
+}
+
+.selected {
+    border: 2px solid #008080;
+}
+
+/*.rectangle:focus{
+    border: 2px solid steelblue;
+  } */
+
+.savings {
+    margin-top: 4rem;
+}
+
+.doller {
+    color: rgb(0, 191, 255)
+}
+
+.info-icon {
+    font-size: small;
+}
+
+
+.rectangle:hover {
+    border: 2px solid #FDE102;
+}
+
+.rectangle:active {
+    border: 2px solid lightseagreen;
+}
+
+.paymentMembership {
+    background-color: beige;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.font-metropolis {
+    font-family: 'EYInterstate Light' !important;
+}
+
+.login-form {
+    margin: auto;
+    max-width: 300px;
+}
+
+.left-align {
+    text-align: left;
+}
+.paymentdues {
+    text-align: start !important;
+    float: left;
+}
+
+.paymentamount {
+    text-align: end !important;
+}
+
+.paymentbtn {
+    background-color: steelblue;
+    color: white;
+}
+
+.footerlink {
+    float: left;
+    text-align: start !important;
+}
+
+.footerbtn {
+    float: right;
+    text-align: end !important;
+}
+
+.cards {
+    width: 13rem;
+    height: 5rem;
+}
+
+/* .cards:active{
+    background-color: steelblue;
+    color: white;
+  }*/
+
+.card-selected {
+    background-color: #008080;
+    color: white;
+}
+
+.field {
+    border-bottom: 1px solid rgb(15, 14, 14);
+}
+
+.makebtn {
+    margin-top: 2rem;
+    float: right;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+.cards:focus {
+    background-color: #008080;
+    color: white;
+}
+
+.confirm {
+    color: green;
+    font-size: 50px;
+}
+
+.failed {
+    color: red;
+    font-size: 50px;
+}
+
+/*Calender*/
+
+.calendar-container, .calendar, .calendar-header, td, tr {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 130%;
+}
+
+.calendar-header {
+    border-bottom: 1px dashed skyblue;
+    font-size: 1.6em;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.day, .empty-slot, .week-day {
+    text-align: center;
+    height: 40px;
+}
+
+.week-day {
+    font-size: 0.8em;
+}
+
+.day {
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: #4285f4;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white;
+}
+
+.selected-day {
+    background-color: yellow;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.nav-month-left {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    left: 0rem;
+}
+
+.nav-month-right {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right: 0rem;
+}
+
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month, .label-year {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.label-month {
+    cursor: pointer;
+}
+
+.next {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    padding-right: .5rem;
+    float: right;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.prev {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.month-year-container {
+    text-align: center;
+    margin-left: 2.8rem;
+}
+
+.show-day {
+    padding-left: 5rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.show-day-name {
+    padding-left: 7.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-continue {
+    width: 12rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-continue:active {
+    background-color: rgb(99, 209, 99);
+}
+
+.policyinfo {
+    width: 12rem;
+    border: 0.1rem solid lightgrey;
+    height: 12rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.policy-logo {
+    margin-top: 1rem;
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.carlogo {
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.verticalline {
+    height: 3rem;
+    border-left: 5px solid lightgrey;
+    margin-left: 2rem;
+}
+
+.ctr {
+    text-align: center;
+}
+
+.vin-field {
+    display: flex;
+    margin-bottom: 36px;
+    overflow: hidden;
+}
+
+.onHover {
+    color: rgb(19, 18, 18);
+}
+
+.onHover:hover {
+    font-weight: bold;
+    color: black!important;
+}
+
+.noBg {
+    color:black!important;
+    background: none!important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.noActiveColor {
+    background-color: white !important;
+    color: black !important;
+}
+.esg-title{
+    color: white;
+    font-family: "EYInterstate Light";
+    font-size: 35px;
+}
+.esg-title-dash{
+    color:  #2e2e38 ;
+    font-family: "EYInterstate Light";
+    /* background: linear-gradient(89deg, #f6f0f0 50%, #f2f2f8 20%); */
+    /* text-align: center !important; */
+}
+.esg-title-dash:hover{
+    cursor: pointer;
+    color: #FDE102 !important ;
+}
+.esg-signout{
+    color: white !important;
+    font-size: x-large !important;
+}
+.esg-signout:hover{
+    color: #FDE102;
+    font-size: x-large;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+.esg-nav{
+   background-image: linear-gradient(#2e2e38, #2e2e38);
+    border-radius: 0px !important;
+}
+.fixed-top {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.esg-list{
+    color: black !important;
+    font-family: "EYInterstate Light";
+}
+.esg-vertical{
+    border-right: 6px solid darkred;
+height: 100%;
+
+position:absolute;
+margin-left: 5em;
+
+}
+.esg-group{
+    margin-left: 10px !important;
+}
+.esg-box{
+        background-color:indianred;
+        border: none;
+        color: white;
+        padding: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 26px;
+        border-color:rgb(133, 48, 48);
+
+}
+.arrowbtn{
+    background: none;
+    border: 0;
+    font-size: 22px;
+    line-height: 2em;
+    position: relative;
+    width: 8em;
+    height: 2em;
+    color: rgb(58, 38, 38);
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+}
+.esg-bt{
+    background-color: white;
+    /* border: 2px; */
+    border-color: #f8f9fa !important;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6em;
+    width: 15em;
+    height: 10em;
+    font-family:"EYInterstate Light";
+}
+.esg-icon{
+    font-size: 5em;
+    color: rgb(238, 234, 234);
+}
+.esg-icon:hover{
+    color: rgb(209, 163, 156);
+}
+.esg-value{
+    color: #000 !important;
+    font-family: "EYInterstate Light";
+    text-align: center !important;
+    cursor: pointer !important;
+}
+.esg-valuee{
+    color: #000 !important;
+    font-family: "EYInterstate Light";
+    font-size: 40px !important;
+    text-align: center !important;
+    cursor: pointer !important;
+}
+.esg-textlbl{
+    padding-left: 6em;
+    font-family: 'EYInterstate Light' !important;
+}
+.esg-footer{
+    /* background-color:#d81e05 !important; */
+    background-image: linear-gradient(#c80a2b, #d81e05);
+    z-index: 10000 !important;
+}
+.esg-i-icon{
+    color:#008080 !important;
+    cursor: pointer !important;
+}
+.esg-ic-icon{
+    color:#008080!important;
+    cursor: pointer !important;
+}
+.esg-i-icon:hover{
+    color:#FDE102 !important;
+    cursor: pointer !important;
+}
+.esg-agent{
+    color: white;
+    font-size: 25px;
+
+}
+.esg-hd{
+    color: white;
+    font-size: 17px;
+    font-family: "EYInterstate Light" !important;
+    padding-top: 10px !important;
+}
+.mp-hp{
+    background-color: darkred !important;
+}
+.mp-bt{
+    background-color: indianred !important;
+}
+.mp-crs{
+    color: white !important;
+}
+.main-container {
+    margin: auto;
+    padding-top: 8rem;
+}
+.bg {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/18/23/50/insurance-1991214_960_720.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .esg-sidebar{
+        background-color:white !important;
+        /* height: 570px !important; */
+        width: 150px !important;
+        min-width: 150px !important;
+    }
+    .esg-sideheader{
+        /* background-color:#d81e05 !important; */
+        background-image: linear-gradient(#2e2e38, #2e2e38) !important;
+        padding: 23px !important ;
+        cursor: pointer !important;
+    }
+
+    .esg-card{
+        /* width: 145px !important; */
+        /* border-radius: 20px !important; */
+        background-color: #ffff !important;
+        height: 236px !important;
+        cursor: pointer !important;
+    }
+    .mp-value{
+        font-family: "EYInterstate Light";
+    }
+    .mp-value-mdtb{
+        font-family: "EYInterstate Light" !important;
+        text-align: center !important;
+        font-size: 20px;
+    }
+    .mp-pack{
+        background-color: #8db602 !important;
+    }
+    .mp-packUnselect{
+        background-color: #eae9e9 !important;
+    }
+    .cardsHeader{
+        color: "#ac0404" !important;
+        size: "3.5rem" !important;
+        text-align: "center" !important;
+    }
+    .esg-textlbll{
+padding-left: 3em;
+font-family: 'EYInterstate Light' !important;
+    }
+    .chat-2{
+        color: white !important;
+        font-family:"EYInterstate Light" ;
+    }
+    .MuiTypography-h5 {
+        font-family:"EYInterstate Light" !important;
+        font-weight: bold !important;
+        font-size: large !important;
+    }
+    .mp-fa{
+        font-size: 50px !important;
+        color: #008080 !important;
+    }
+    .mp-fa:hover{
+      color: #d4e6e5 !important;
+    }
+.mp-bt-btn{
+    background-color: #008080 !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    box-sizing:unset !important;
+    font-family: 'EYInterstate Light' !important;
+    outline: 2px solid #008080;
+    outline-offset: 2px;
+    outline-width: thin;
+}
+.mp-bt-btn:hover{
+    cursor: pointer;
+    background-color: white !important ;
+    color: #008080 !important ;
+}
+.mp-bt-btn:focus{
+    cursor: pointer;
+    border: none !important;
+    outline: none !important;
+}
+.mp-src-btn{
+    color: white !important;
+    border: white !important;
+    border-color: #008080 !important;
+    border-style: solid !important;
+    background-color: #008080 !important;
+}
+.mp-src-btn:hover{
+    cursor: pointer;
+    background-color: #ffffff !important;
+    color: #008080 !important;
+}
+.mp-src-btn:focus{
+    border: none !important;
+    outline: none !important;
+    background-color: red !important;
+    box-shadow: none !important;
+}
+.mpfre-font-family{
+    font-family: "EYInterstate Light" !important;
+}
+.mp-mail{
+    color: #d81e05 !important;
+    text-decoration: underline !important;
+}
+.mp-align{
+    justify-content: center !important;
+}
+.pagination.active a{
+    border-color: #ccc !important;
+}
+.page-item.active .page-link{
+    border-color: #ccc !important;
+}
+.MuiRadio-root{
+    color: #d81e05 !important;
+}
+.table-responsive{
+    overflow-x:unset !important;
+}
+.mp-height{
+    height: 100%  !important;
+}
+.mp-height-ofr{
+    height: 265px  !important;
+}
+.mp-acc-label{
+    font-size: 20px !important;
+    font-weight:500 !important;
+}
+.mp-amount{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mp-360{
+    font-size: 12px !important;
+    cursor: pointer;
+}
+.mp-bill{
+    font-size: 14px !important;
+    cursor: pointer;
+}
+.mp-360-label{
+    font-size: 12px !important;
+    cursor: pointer;
+    margin-left: 12px !important;
+}
+.mp-360-clr{
+    color: #008080 !important;
+    cursor: pointer;
+    font-size: 15px !important;
+}
+.mp-360-clr-dash{
+    color: #008080 !important;
+    cursor: pointer;
+    font-size: 30px !important;
+}
+.mp-360-summary:hover{
+    cursor: pointer;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.mp-circle {
+    width: 55px  !important;
+    height: 55px !important;
+    border-radius: 50% !important;
+}
+.mp-circle-dash {
+    width: 47px  !important;
+    height: 3.28em !important;
+    border-radius: 50% !important;
+}
+.mp-font{
+    font-size: 14px !important;
+}
+.mp-active-cr{
+    box-shadow: 0 5px 15px #008080 !important;
+}
+.mp-ft{
+    font-size: 12px !important;
+    cursor: pointer;
+    color: #008080 !important;
+}
+.mp-accordian{
+    height: 38px !important;
+    min-height: 20px !important;
+}
+.MuiBadge-colorError{
+    color: #ffff !important;
+    background-color: #008080 !important;
+}
+.MuiBadge-badge{
+    height: 16px !important;
+    width: 16px !important;
+    min-width: 15px !important;
+    font-size: 1em !important;
+    font-family: 'EYInterstate Light'!important;
+}
+.mp-360-font{
+    font-size: medium !important;
+    font-family:"Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+.mp-margin-for-top{
+    margin-top: 65px !important;
+}
+@media only screen and (max-device-width: 700px) and (min-width: 360px) {
+    .mp-margin-for-top{
+      margin-top: 300px !important;
+  }
+   }
+   .mp-activity-font{
+       font-size: 25px;
+       margin-top: 10px;
+   }
+   .mp-activity-font-dash{
+    margin-top: 11px;
+}
+  .mp-disabled{
+      background: #dddd !important;
+  }
+  @media only screen and (max-device-width: 768px) {
+    .mp-action-font{
+        font-size: .7rem !important;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  .mp-action-font{
+      font-size: 13px !important;
+  }
+}
+  .mp-model{
+      background-color: #008080 !important;
+  }
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+    padding: 1px !important;
+}
+.close{
+    color: #ffff !important;
+    opacity: 1.2 !important;
+}
+
+.mp-text-decoration:hover{
+    cursor: pointer;
+    transition: background-position 275ms ease;
+    background: linear-gradient(to right, rgb(223, 46, 15), rgb(224, 70, 43) 50%, rgb(133, 38, 10) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+.mp-text-decoration{
+    text-decoration: underline;
+    /* border-radius: 4px;  */
+    color: rgb(109, 109, 240);
+    /* box-shadow: 0px 2px 2px rgba(236, 39, 13, 0.925); */
+
+}
+
+  .mp-tooltip{
+      font-size: 15px !important;
+  }
+  .mp-margin-bottom{
+      margin-bottom: 1rem !important;
+  }
+  .mp-top{
+      margin-top: 3rem !important;
+  }
+  .mp-top-sum{
+    margin-top: 1.3rem !important;
+}
+.mp-multi{
+    text-align: center !important;
+    font-size: medium ;
+}
+.mp-360-label-dash{
+    font-size: 10px !important;
+    margin-top: 15px;
+}
+.mp-dash-card{
+    box-shadow: 0 5px 15px 	#008080 !important;
+}
+.width-30{
+    width: 40% !important;
+}
+.mpt{
+    margin-top: 8rem !important;
+}
+.MuiBadge-colorError{
+    color: #000 !important;
+    background-color: #FDE102 !important;
+}
+@media only screen and (max-device-width: 640px) and (min-width: 360px) {
+    .mpt{
+        margin-top: 18rem !important;
+    }
+    .mp-wrapper {
+        position: fixed;
+        top: 255px !important;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        overflow: scroll;
+    }
+    .log-mt{
+        margin-top: 16rem !important;
+    }
+    .width-30{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-device-width: 1200px) and (min-width: 768px) {
+    .mp-wrapper {
+        position: fixed;
+        top: 85px !important;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        overflow: scroll;
+    }
+    .log-mt{
+        margin-top: 20rem !important;
+    }
+}
+@media only screen and (max-device-width: 1300px) and (min-width: 768px) {
+    .log-mt{
+        margin-top: 20rem !important;
+    }
+    .width-30{
+        width: 60% !important;
+    }
+}
+.mp-wrapper {
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-top: 10px;
+}
+.claim-main {
+    padding-top:20px;
+    margin: auto;
+
+}
+.log-mt{
+    margin-top: 8rem;
+}
+@media (min-width: 992px){
+.offset-lg-5 {
+    margin-left: 37.666667% !important;
+}
+}
+span.MuiChip-label {
+    white-space: pre-wrap;
+  }
+  div.MuiChip-root {
+    height: fit-content;
+  }
+
+.esg-title{
+    color: #FDE102;
+}
+.esg-title-1{
+    color: white;
+    padding-left: 10px;
+}
+
+.claimsDetails-container{
+    margin: 2px;
+    }
+    
+    .claimsDetails-heading{
+        text-align: left;
+        font-size: 28px;
+        color: white;
+        
+    }
+    .claimsDetails-heading1{
+        color: white;
+        font-size: 24px;
+    }
+    .claimsDetails-info1{
+        color: white;
+    }
+    
+    .claimsDetails-info{
+    text-align: left;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+    .claimsDetails-grid{
+        margin-right: 50px;
+        text-align: left;
+        margin-left: 22px;
+    }
+    .claimsDetails-info-header{
+        text-align: left;
+        margin-left: 22px;
+        font-size: 24px;
+        color: #999;
+        
+    }
+    .claimsDetails-info-label{
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        color: #999;
+    }
+    .claimsDetails-info-data{
+        text-align: left;
+        font-size: 16px;
+    }
+    .confirm-container{
+        width: 90%;
+    margin-left: 86px;
+    padding-top: 10px;
+    }
+    .map-padding{
+        padding:6px
+    }
+.verb-heading{
+    padding-bottom: 10px;
+}

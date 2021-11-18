@@ -1,0 +1,142 @@
+[
+    {
+        "ClaimNumber": "8378431459",
+        "Product":"Personal Auto",
+        "Account":{
+            "AccountNumber":"ACC10000001",
+            "AccountHolder":"Robert E. Altman"
+        },
+        "Adjuster":{
+            "PhoneNumber":"513113333",
+            "DisplayName":"Pam Vance"
+        },
+        "Status":"Started",
+        "NetInccurred":"0.00",
+        "PolicyNumber":"P00001",
+        "PolicyDetails":{
+
+        },
+        "InsuredVehicle":[{
+            "VIN":"1VXBR12EXCP901214",
+            "MAKE":"TOYOTA",
+            "MODEL":"COROLLA CE",
+            "STYLE":"SEDAN (4-DOOR)",
+            "ENGINE":"1.8L L4 DOHC 16V",
+            "MADE_IN":"JAPAN",
+            "TYPE":"PASSENGER CAR"
+        }],
+        "DateOfLoss":"10th Jan 2021",
+        "LossType":"Collision",
+        "LossDetails":"Collided with another Vehicle",
+        "LossLocation":{
+            "state": "CA",
+            "displayName": "407 N NORTON LOS ANGELES CA 90004-1519",
+            "country": "US",
+            "city": "LOS ANGELES",
+            "postalCode": "90004-1519",
+            "county": "Harrison",
+            "addressLine1": "407 N NORTON"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "Liability":{
+            "Vehicles":[
+            {
+                "VIN":"1VXBR12EXCP901215",
+                "MAKE":"SAMPLE1",
+                "MODEL":"SAMPLE1 CE",
+                "STYLE":"SEDAN (4-DOOR)",
+                "ENGINE":"1.8L L4 DOHC 16V",
+                "MADE_IN":"JAPAN",
+                "TYPE":"PASSENGER CAR"
+            },{
+                "VIN":"1VXBR12EXCP901214",
+                "MAKE":"SAMPLE",
+                "MODEL":"SAMPLE CE",
+                "STYLE":"SEDAN (4-DOOR)",
+                "ENGINE":"1.8L L4 DOHC 16V",
+                "MADE_IN":"JAPAN",
+                "TYPE":"PASSENGER CAR"
+            }],
+            "Injured":[{
+                "Name":"Paul Smith",
+                "PhoneNumber":"513113333"
+
+            }]
+
+        },
+        "DamamgedParts":{
+
+        },
+        "Images":{
+
+        }
+    },
+    {
+        "ClaimNumber": "8378431466",
+        "Product":"Personal Auto",
+        "Account":{
+            "AccountNumber":"ACC10000001",
+            "AccountHolder":"Robert E. Altman"
+        },
+        "Status":"Started",
+        "NetInccurred":"0.00",
+        "PolicyNumber":"P00001",
+        "PolicyDetails":{
+
+        },
+        "InsuredVehicle":[{
+            "VIN":"1VXBR12EXCP901214",
+            "MAKE":"TOYOTA",
+            "MODEL":"COROLLA CE",
+            "STYLE":"SEDAN (4-DOOR)",
+            "ENGINE":"1.8L L4 DOHC 16V",
+            "MADE_IN":"JAPAN",
+            "TYPE":"PASSENGER CAR"
+        }],
+        "DateOfLoss":"10th Jan 2021",
+        "LossType":"Collision",
+        "LossDetails":"Collided with another Vehicle",
+        "LossLocation":{
+            "state": "MS",
+            "displayName": "14367 Big Creek Rd, Gulfport, MS 39503-8354-67",
+            "country": "US",
+            "city": "Gulfport",
+            "postalCode": "39503-8354-67",
+            "county": "Harrison",
+            "addressLine1": "14367 Big Creek Rd"
+        },
+        "LocationDescription":"The other car hit me in the middleof the road",
+        "VehicleCondition":"Damaged but safe to Drive",
+        "Liability":{
+            "Vehicles":[{
+                "VIN":"1VXBR12EXCP901214",
+                "MAKE":"SAMPLE",
+                "MODEL":"SAMPLE CE",
+                "STYLE":"SEDAN (4-DOOR)",
+                "ENGINE":"1.8L L4 DOHC 16V",
+                "MADE_IN":"JAPAN",
+                "TYPE":"PASSENGER CAR"
+            },
+            {
+                "VIN":"1VXBR12EXCP901215",
+                "MAKE":"SAMPLE1",
+                "MODEL":"SAMPLE1 CE",
+                "STYLE":"SEDAN (4-DOOR)",
+                "ENGINE":"1.8L L4 DOHC 16V",
+                "MADE_IN":"JAPAN",
+                "TYPE":"PASSENGER CAR"
+            }],
+            "Injured":[{
+                "Name":"Paul Smith"
+            }]
+
+        },
+        "DamamgedParts":{
+
+        },
+        "Images":{
+
+        }
+    }
+]

@@ -1,0 +1,124 @@
+.link {
+  cursor: pointer;
+  text-decoration: underline !important;
+  color: #007bff !important;
+}
+
+.activeUncheckedRow {
+  color: transparent !important;
+  padding: 0px 0px;
+  border-radius: 3px;
+  list-style-type: none;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: static;
+  opacity: 0.5;
+  text-align: center;
+  display: inline-block;
+}
+
+.activeDisabledRow {
+  color: transparent !important;
+  padding: 0px 0px;
+  border-radius: 3px;
+  list-style-type: none;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: static;
+  opacity: 0.2;
+  cursor: default;
+  text-align: center;
+  display: inline-block;
+}
+
+.activeCheckedRow {
+  color: transparent !important;
+  padding: 0px 0px;
+  border-radius: 3px;
+  list-style-type: none;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: static;
+  opacity: 0.5;
+  text-align: center;
+  display: inline-block;
+}
+
+tbody+thead {
+  display: none;
+}
+
+.dataTables_wrapper div.dataTables_length select,
+.dataTables_wrapper div.dataTables_length input {
+  margin-left: 10px
+}
+
+.Table {
+  @media all and (max-width: 440px) {
+    padding: .5rem 1rem;
+  }
+
+  .dataTables_filter {
+
+    .form-control .form-control-sm {
+      input::placeholder {
+        color: red;
+      }
+    }
+
+  }
+}
+
+.Table {
+
+  .table-header {
+    margin-bottom: 0.4rem !important;
+    font-size: 12px !important;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+
+  tbody tr td {
+    border-right: 2px solid #ffffff;
+  }
+  
+  .tablecontainer {
+
+    .dataTables_length,
+    .dataTables_info {
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .dataTables_filter,
+    .dataTables_paginate {
+      font-size: 12px;
+    }
+
+    .dataTables_paginate {
+      .pagination .page-item.active .page-link {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        transition: all 0.2s linear;
+        border-radius: 0.125rem;
+        background-color: #ffba43;
+        color: #000;
+      }
+    }
+  }
+ 
+}
