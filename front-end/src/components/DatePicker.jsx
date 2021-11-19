@@ -3,16 +3,6 @@ import { Component } from 'react';
 import DatePick from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
-
-/**
-    *   Description : Component for displaying textbox
-        Parameters
-        ----------                              
-        1. id: id of the attribute
-        2. onChange : action to be called upon change of date
-        Author : Sreedev Sreedharan 
-
-*/
 class DatePicker extends Component {
 
     state = {

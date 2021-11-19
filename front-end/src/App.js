@@ -8,11 +8,7 @@ import RepairFacility from './pages/RepairFacility';
 
 import ConfirmationPage from './pages/ConfirmationPage';
 import Header from './components/Header';
-import LocalStorage from './storage/LocalStorage';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-
-const localStore = new LocalStorage();
-const hasLoggedIn = localStore.getValueFromLocalStorage("loggedIn");
 
 class App extends Component {
   render() {

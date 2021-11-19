@@ -54,8 +54,6 @@ function ConfirmationPage(props) {
                     setClaimId(claimID);
                     setSelectedValue(repairFacility);
 
-                    console.log(repairFacility);
-                    console.log(marker);
                     let markerList = [];
                     markerList.push(marker);
                     setAddress(markerList);

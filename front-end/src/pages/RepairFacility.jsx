@@ -75,8 +75,6 @@ function RepairFacility(props) {
 
   const handleClose = (value) => {
     setOpen(false);
-    console.log(value);
-    console.log(selectedValue);
     let marker = markers[activeMarkerId];
     if (value == "ok") {
       history.push({
@@ -84,7 +82,7 @@ function RepairFacility(props) {
         state: {
           claimID: claimId,
           repairFacility: selectedValue,
-          marker : marker
+          marker: marker
         }
       });
 
@@ -106,18 +104,15 @@ function RepairFacility(props) {
           const addressParam = encodeURIComponent(lossLocation);
           setSelectedValue({});
           setClaimId(claimID)
-          axios.get('https://maps.googleapis.com/maps/api/geocode/json?address=' + addressParam + '&key=AIzaSyDNKPmO2UKtZ8KklnS7ewEBgQpqmnE0PT0').then(response => {
-            console.log(response);
+          axios.get('http://com-ey-esg-microservice.workshop-team-five-bb0dafd08526894d1a8ae848e8bd8099-0000.eu-gb.containers.appdomain.cloud/geomap/' + addressParam).then(response => {
             setCustomerlocation(response.data.results[0].geometry.location);
             setFormattedaddress(response.data.results[0].formatted_address)
             let location = response.data.results[0].geometry.location;
             let param = encodeURIComponent(location.lng + "," + location.lat);
-           const image = "https://cdn2.iconfinder.com/data/icons/construction-glyphs-2/128/57-512.png";
             const icon = { url: require("../assets/images/placeholder.png"), scaledSize: { width: 50, height: 50 } };
             const icon1 = { url: require("../assets/images/car-repair.png"), scaledSize: { width: 50, height: 50 } };
-            axios.get('https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?singleLine=&category=Repair%20Services&outFields=PlaceName,Place_Addr,City,Region&maxLocations=5&location=' + param + '&forStorage=false&f=pjson&token=AAPK9e36f024eaaa463987896d3bf7badce6CAbz3Ez3VNkwfB5-KF1saZEOhu9dX-fTdXvKoRkSxLLSOg9-odaM-SKrkQP9AAjX')
+            axios.get('http://com-ey-esg-microservice.workshop-team-five-bb0dafd08526894d1a8ae848e8bd8099-0000.eu-gb.containers.appdomain.cloud/geomaplocation/' + param)
               .then(response => {
-                console.log(response);
                 var shops = response.data.candidates;
                 if (!!shops && shops.length > 0) {
                   let shopList = [];
@@ -159,7 +154,6 @@ function RepairFacility(props) {
   const handleOnClick = useCallback((shop, id) => {
     setSelectedValue(shop)
     setActiveMarkerId(id);
-    console.log(shop);
     setOpen(true);
   }, [selectedValue, setSelectedValue, setActiveMarkerId, activeMarkerId])
 
@@ -169,14 +163,14 @@ function RepairFacility(props) {
     'repair_shop_3.jpg',
     'repair_shop_4.jpg',
     'repair_shop_5.jpg'];
-  
-  
-    const getRepairImage = (image) => {
-      if (image) {
-          const imagePath = require(`../assets/images/${image}`);
-          return <img src={imagePath} />
-      }
-      return undefined;
+
+
+  const getRepairImage = (image) => {
+    if (image) {
+      const imagePath = require(`../assets/images/${image}`);
+      return <img src={imagePath} />
+    }
+    return undefined;
   }
 
 
@@ -186,13 +180,13 @@ function RepairFacility(props) {
       <div className="">
         <Grid container>
           <Grid item xs={3}>
-          <div className="leftAlign repair-header"><label className="mp-value-mdtb">Auto repair shop</label></div>
+            <div className="leftAlign repair-header"><label className="mp-value-mdtb">Auto repair shop</label></div>
             <div className="shop-list-container">
               {markers.map(({ id, name, position, placeName, placeAddress, shop, icon }) => (
                 <div className="shop-list">
                   <Grid container>
                     <Grid item xs={4} className="shop-img">
-                    {getRepairImage(shopImages[id])}
+                      {getRepairImage(shopImages[id])}
                     </Grid>
 
                     <Grid item xs={8} className="shop-info-grid">
@@ -202,7 +196,7 @@ function RepairFacility(props) {
 
                         {(id % 2 == 0) ?
                           (<StarRatings
-                            rating={(id%1.5)+3.5}
+                            rating={(id % 1.5) + 3.5}
                             starRatedColor="green"
                             numberOfStars={5}
                             name='rating'
@@ -223,7 +217,7 @@ function RepairFacility(props) {
           </Grid>
           <Grid item xs={8}>
 
-            <Map markers={markers}  onClickMarker={setActiveMarkerId} onSelect={handleOnClick} />
+            <Map markers={markers} onClickMarker={setActiveMarkerId} onSelect={handleOnClick} />
           </Grid>
 
         </Grid>

@@ -1,14 +1,5 @@
 import React, { Component } from 'react'
 
-
-/**
- * Description : Component for displaying label
-   Parameters
-   ----------
-   1. text : Content of the label
-   2. id: id of the attribute
-   Author : Sreedev Sreedharan 
- */
 class Label extends Component {
 
     state={

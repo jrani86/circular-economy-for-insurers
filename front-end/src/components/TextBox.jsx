@@ -1,15 +1,5 @@
 import React, { Component } from 'react'
 
-
- /**
-    *   Description : Component for displaying textbox
-        Parameters
-        ----------
-        1. placeholder : placeholder of the text
-        2. id: id of the attribute
-        3. class: extra class names
-        Author : Sreedev Sreedharan 
- */
 class TextBox extends Component {
 
     state={

@@ -95,13 +95,13 @@ export default class LoginForm extends Component {
           <Container>
             <Row>
               <Col
-                className="requestblockonecol"
+                className="block-one-column"
                 lg={8}
                 md={8}
                 sm={6}
                 xs={12}
               />
-              <Col className="requestblocktwocol" lg={4} md={4} sm={6} xs={12}>                
+              <Col className="block-two-column" lg={4} md={4} sm={6} xs={12}>                
                 <div>
                   <div>
                     <form onSubmit={this.handleSubmit}>

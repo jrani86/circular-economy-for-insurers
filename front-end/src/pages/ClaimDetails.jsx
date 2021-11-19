@@ -141,7 +141,7 @@ function ClaimDetails(props) {
                                 </Box>
                             </CardContent>
                         </Card>
-                        <Grid container rowSpacing={5} columnSpacing={{ xs: 1, sm: 1, md: 1 }} className="grid-container vehicle-grid">
+                        <Grid container rowSpacing={5} columnSpacing={{ xs: 1, sm: 1, md: 1 }} className="vehicle-grid">
                             <Grid item xs={7} className="vehicle-damage-grid">
                                 <p>Damage Parts</p>
                                 <div className="flex-div">

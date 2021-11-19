@@ -19,7 +19,6 @@ function ClaimList(props) {
     }
 
     const handleClick = (e) => {
-        console.log(e);
         history.push({
             pathname: "/claimdetails",
             state: {

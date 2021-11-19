@@ -30,8 +30,6 @@
     margin-left: 3rem!important;
 }
 
-/* Prefill */
-
 .header {
     font-size: 2em !important;
     padding-bottom: 20px;
@@ -220,9 +218,6 @@
     margin-right: 3em!important;
 }
 
-/* .trebuchet-font{
-    font-family:Helvetica, sans-serif
-} */
 
 .selected {
     border-style: solid;
@@ -350,15 +345,6 @@
     color: #008080 !important;
     border: 1px solid #008080 !important;
 }
-/* .switch-field label:first-of-type {
-    border-radius: 4px 0 0 4px;
-}
-
-.switch-field label:last-of-type {
-    border-radius: 0 4px 4px 0;
-} */
-
-/*  */
 
 .custom {
     font-size: 1.6vw;
@@ -415,10 +401,6 @@
 .selected {
     border: 2px solid #008080;
 }
-
-/*.rectangle:focus{
-    border: 2px solid steelblue;
-  } */
 
 .savings {
     margin-top: 4rem;
@@ -743,8 +725,6 @@
 .esg-title-dash{
     color:  #2e2e38 ;
     font-family: "EYInterstate Light";
-    /* background: linear-gradient(89deg, #f6f0f0 50%, #f2f2f8 20%); */
-    /* text-align: center !important; */
 }
 .esg-title-dash:hover{
     cursor: pointer;
@@ -905,20 +885,16 @@ margin-left: 5em;
     }
     .esg-sidebar{
         background-color:white !important;
-        /* height: 570px !important; */
         width: 150px !important;
         min-width: 150px !important;
     }
     .esg-sideheader{
-        /* background-color:#d81e05 !important; */
         background-image: linear-gradient(#2e2e38, #2e2e38) !important;
         padding: 23px !important ;
         cursor: pointer !important;
     }
 
     .esg-card{
-        /* width: 145px !important; */
-        /* border-radius: 20px !important; */
         background-color: #ffff !important;
         height: 236px !important;
         cursor: pointer !important;
@@ -1000,9 +976,6 @@ font-family: 'EYInterstate Light' !important;
     outline: none !important;
     background-color: red !important;
     box-shadow: none !important;
-}
-.mpfre-font-family{
-    font-family: "EYInterstate Light" !important;
 }
 .mp-mail{
     color: #d81e05 !important;

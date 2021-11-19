@@ -6,10 +6,9 @@
     height: 100px;
     top: 5px;
     left: 30px;
-    //transform: translate(-50%,-50%);
   }
+
   .Login {
-    /* padding: 10% 0; */
     display: table-cell;
     vertical-align: middle;
     height: 100vh;
@@ -26,11 +25,11 @@
     background-position: initial;
 
     .login-container {
-      .requestblockonecol {
+      .block-one-column {
         text-align: center;
       }
 
-      .requestblocktwocol {
+      .block-two-column {
         text-align: center;
         background-color: rgba(0, 0, 0, 0.2);
         padding: 20px 20px;

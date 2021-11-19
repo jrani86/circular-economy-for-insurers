@@ -1,14 +1,5 @@
 import React, { Component } from 'react'
 
-/**
-    *   Description : Component for displaying textbox
-        Parameters
-        ----------                        
-        1. id: id of the attribute
-        2. onChange : action to be performed when value changes
-        3. options : key value pair to set the drop down values and dispaly names
-        Author : Sreedev Sreedharan 
-*/
 class DropDown extends Component {
 
     state={
@@ -21,8 +12,7 @@ class DropDown extends Component {
     
 
     render() { 
-        // console.log(this.props.componentProps.defaultValue)
-        return (
+       return (
             <div>
                 
                 <select  onClick={this.props.onClick} onChange={this.props.onChange} className={this.props.componentProps.className} required={this.props.componentProps.required} name={this.props.componentProps.name} id={this.props.componentProps.id}>
